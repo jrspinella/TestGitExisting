@@ -14,6 +14,7 @@ namespace TFSTeamForgeSyncService
         /// </summary>
         static void Main()
         {
+            //This is a test
             ServiceBase[] ServicesToRun;
             ServicesToRun = new ServiceBase[]
             {

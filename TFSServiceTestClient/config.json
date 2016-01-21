@@ -1,0 +1,67 @@
+﻿{
+  "tfs": {
+    "connection": {
+      "server": "https://cmason.visualstudio.com/",
+      "userName": "cmason",
+      "password": "4hltasuX"
+    },
+    "validProjects": [
+      {
+        "mappingId": 1,
+        "collectionName": "DefaultCollection",
+        "projectName": "GitSyncThrowAway",
+        "areaName": "GitSyncThrowAway"
+      }
+    ],
+    "validWorkItemTypes": [
+      {
+        "mappingId": 1,
+        "workItemType": "Task"
+      },
+      {
+        "mappingId": 2,
+        "workItemType": "Bug"
+      }
+    ],
+    "supportedEvents": [ "workitem.created", "git.push" ]
+  },
+  "tf": {
+    "connection": {
+      "server": "fabrikam-fiber-inc.visualstudio.com",
+      "userName": "",
+      "password": "",
+      "https": true
+    },
+    "projects": [
+      {
+        "mappingId": 1,
+        "projectName": "FabrikamCloud"
+      }
+    ],
+    "trackers": [
+      {
+        "mappingId": 1,
+        "trackerName": "Generic Tracker"
+      },
+      {
+        "mappingId": 2,
+        "trackerName": "Generic Tracker"
+      }
+    ]
+  },
+  "repositories": [
+    {
+      "source": {
+        "name": "Fabrikam-Fiber-Git",
+        "url": "",
+        "branch": ""
+      },
+      "destination": {
+        "name": "",
+        "url": "",
+        "branch": ""
+      },
+      "defaultRemoteName": ""
+    }
+  ]
+}

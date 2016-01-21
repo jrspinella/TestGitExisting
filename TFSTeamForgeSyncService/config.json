@@ -1,0 +1,67 @@
+﻿{
+  "tfs": {
+    "connection": {
+      "server": "http://he3intvdapp175:8080/tfs/",
+      "userName": "c39471",
+      "password": "4hltasuX!"
+    },
+    "validProjects": [
+      {
+        "mappingId": 1,
+        "collectionName": "DefaultCollection",
+        "projectName": "TestGitProcess",
+        "areaName": "TestGitProcess"
+      }
+    ],
+    "validWorkItemTypes": [
+      {
+        "mappingId": 1,
+        "workItemType": "Task"
+      },
+      {
+        "mappingId": 2,
+        "workItemType": "Bug"
+      }
+    ],
+    "supportedEvents": [ "workitem.created", "git.push" ]
+  },
+  "tf": {
+    "connection": {
+      "server": "teamforgenp.fhlmc.com",
+      "userName": "c39471",
+      "password": "4hltasuX!",
+      "https": true
+    },
+    "projects": [
+      {
+        "mappingId": 1,
+        "projectName": "tfseval1"
+      }
+    ],
+    "trackers": [
+      {
+        "mappingId": 1,
+        "trackerName": "Generic Tracker"
+      },
+      {
+        "mappingId": 2,
+        "trackerName": "Generic Tracker"
+      }
+    ]
+  },
+  "repositories": [
+    {
+      "source": {
+        "name": "TestGitProcess3",
+        "url": "http://he3intvdapp175:8080/tfs/DefaultCollection/TestGitProcess/_git/TestGitProcess3",
+        "branch": "tf_release"
+      },
+      "destination": {
+        "name": "tfseval1",
+        "url": "https://gitsvrnp.fhlmc.com/gerrit/p/tfseval1.git",
+        "branch": "tf_release"
+      },
+      "defaultRemoteName": "tf"
+    }
+  ]
+}

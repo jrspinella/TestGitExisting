@@ -13,7 +13,8 @@ namespace TFSTeamForgeSyncService
         /// The main entry point for the application.
         /// </summary>
         static void Main()
-        {            
+        {   
+            //this is a test         
             ServiceBase[] ServicesToRun;
             ServicesToRun = new ServiceBase[]
             {
